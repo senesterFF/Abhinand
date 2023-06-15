@@ -1,0 +1,45 @@
+*{
+    margin:0 ;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing:border-box ;
+}
+body{
+    background: #000;
+    color: white;
+    background-image: url(C:\Users\Abhinand\OneDrive\Desktop\hackerthorn\images\FIRSTIMG.jpg);
+
+}
+header{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/FIRSTIMG.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px 0;
+    
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
